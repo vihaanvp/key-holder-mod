@@ -43,7 +43,7 @@ public class KeyHolderFabric implements ClientModInitializer {
             }
         });
 
-        ClientCommandRegistrationCallback.EVENT.register((dispatcher, registryAccess) -> dispatcher.register(literal("keyholder")
+        ClientCommandRegistrationCallback.EVENT.register((dispatcher, commandBuildContext) -> dispatcher.register(literal("keyholder")
                 .then(literal("on").executes(ctx -> feedback(ctx, CORE.setEnabled(true))))
                 .then(literal("off").executes(ctx -> feedback(ctx, CORE.setEnabled(false))))
                 .then(literal("toggle").executes(ctx -> feedback(ctx, CORE.toggle())))

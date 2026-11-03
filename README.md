@@ -1,6 +1,6 @@
 # Key Holder
 
-A client-side Fabric mod for Minecraft 26.2 that lets you pick a key and holds it down for you, until you toggle it off.
+A client-side Fabric mod for Minecraft 26.3 that lets you pick a key and holds it down for you, until you toggle it off.
 
 ## Usage
 
@@ -11,8 +11,8 @@ A client-side Fabric mod for Minecraft 26.2 that lets you pick a key and holds i
 
 ## Requirements
 
-- Minecraft 26.2
-- [Fabric Loader](https://fabricmc.net/) `>=0.18.4`
+- Minecraft 26.3
+- [Fabric Loader](https://fabricmc.net/) `>=0.19.5`
 - [Fabric API](https://modrinth.com/mod/fabric-api)
 - Optional: [Mod Menu](https://modrinth.com/mod/modmenu) + [Cloth Config](https://modrinth.com/mod/cloth-config) for the GUI screen
 
@@ -24,7 +24,7 @@ Requires JDK 25:
 JAVA_HOME="<path to JDK 25>" ./gradlew.bat build
 ```
 
-The jar is output to `fabric-26.2/build/libs/`.
+The jars are output to `fabric-26.2/build/libs/` and `fabric-26.3/build/libs/`.
 
 ## License
 
